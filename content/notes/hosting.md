@@ -1,5 +1,6 @@
 ---
 title: "Deploying Quartz to the Web"
+private: true
 ---
 
 ## GitHub Pages
