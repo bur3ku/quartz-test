@@ -12,9 +12,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build Link Index
-        uses: bur3ku/hugo-obsidian
+        uses: bur3ku/hugo-obsidian@ba242a27840525da7d5f7ece0cc04543e865cd81
         with:
-          publish_branch: issue#3  # deploying branch
           index: true
           input: content
           output: data
